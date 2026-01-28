@@ -46,10 +46,6 @@ body {
 .container1bottom {
     height: fit-content;
 }
-
-*{
-    outline: 1px solid red;
-}
 .doublerow{
     height: 100%;
     outline: 40px solid ;
