@@ -1,26 +1,27 @@
 .container1 {
     background-color: black;
-    width: 50%;
-    height: auto;
+    width: 950px;
+    height: fit-content;
     justify-content: center;
     position: relative;
     display: grid;
-    height: 50vw;
     gap: 1vw;
-    margin-top: 100px;
-    padding-top: 1vw;
-    padding-bottom: 1vw ;
+    margin-top: 50px;
+    padding: 1vw;
     border-radius: 20px;
+    
 }
 .container1top {
     display: grid;
     grid-template-columns: auto auto;
     grid-column: auto;
     gap:1vw;
+    height: 100%;
+    width: 100%;
 }
 .container1topleft{
     display: grid;
-    gap: 1vw;    height: 93%;
+    gap: 1vw;    height: 100%;
 }
 .item img{
     width: 100%;
@@ -29,26 +30,27 @@
 }
 .item {
     background-color: white;
-    width: 23vw;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    height: 16vw;
-    min-width: 23vw;
 }
 body {
     width: 100%;
     height: 100vh;
     overflow: auto;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    background-color: #12111b;
+    flex-direction: column;
 }
-#doublerow {
-    height: 33vw;
+.container1bottom {
+    height: fit-content;
 }
-#doublecolumn {
-    width: 47vw;
-}
+
 *{
     outline: 1px solid red;
+}
+.doublerow{
+    height: 100%;
+    outline: 40px solid ;
 }
